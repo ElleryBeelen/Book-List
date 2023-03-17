@@ -1,0 +1,20 @@
+CREATE TABLE store_inventory(id INTEGER PRIMARY KEY, item TEXT, price TEXT, available_quantity INTEGER, sold_quantity INTEGER);
+
+INSERT INTO store_inventory VALUES(1, "Large Matte Flower Sticker", "$5.00", 12, 45);
+INSERT INTO store_inventory VALUES(2, "Small Matte Flower Sticker", "$4.00", 23, 27);
+INSERT INTO store_inventory VALUES(3, "Large Glossy Flower Sticker", "$5.50", 3, 57);
+INSERT INTO store_inventory VALUES(4, "Small Glossy Flower Sticker", "$4.50", 17, 32);
+INSERT INTO store_inventory VALUES(5, "Large Matte Heart Sticker", "$5.00", 23, 56);
+INSERT INTO store_inventory VALUES(6, "Small Matte Heart Sticker", "$4.00", 28, 33);
+INSERT INTO store_inventory VALUES(7, "Large Glossy Heart Sticker", "$5.50", 14, 25);
+INSERT INTO store_inventory VALUES(8, "Small Glossy Heart Sticker", "$4.50", 40, 12);
+INSERT INTO store_inventory VALUES(9, "Large Matte Puppy Sticker", "$5.50", 3, 76);
+INSERT INTO store_inventory VALUES(10, "Small Matte Puppy Sticker", "$4.50", 19, 45);
+INSERT INTO store_inventory VALUES(11, "Large Glossy Puppy Sticker", "$6.00", 32, 34);
+INSERT INTO store_inventory VALUES(12, "Small Glossy Puppy Sticker", "$5.00", 23, 35);
+INSERT INTO store_inventory VALUES(13, "Large Matte Kitten Sticker", "$5.00", 16, 42);
+INSERT INTO store_inventory VALUES(14, "Small Matte Kitten Sticker", "$4.00", 29, 18);
+INSERT INTO store_inventory VALUES(15, "Re-useable Sticker Book", "$23.50", 17, 52);
+
+SELECT * From store_inventory;
+SELECT * FROM store_inventory WHERE sold_quantity >25 ORDER BY available_quantity
