@@ -1,0 +1,16 @@
+/** Favorite Books:
+War and Peace (5)
+Cain's Jawbone (2)
+Pride and Prejudice (1)
+Harry Potter Series (3)
+Hunger Games Series (4)
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES(1, "Pride and Prejudice", 1);
+INSERT INTO books VALUES(2, "Cain's Jawbone", 2); 
+INSERT INTO books VALUES(3, "Harry Potter Series", 3);
+INSERT INTO books VALUES(4, "Hunger Games Series", 4);
+INSERT INTO books VALUES(5, "War and Peace", 5);
+SELECT * FROM books;
