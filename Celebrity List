@@ -1,0 +1,145 @@
+CREATE TABLE stars(id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT,
+    last_name TEXT,
+    birthday TEXT,
+    occupation TEXT);
+    
+INSERT INTO stars VALUES (1, "George", "Clooney", "May 6 1961", "Movie Star");
+INSERT INTO stars VALUES (2, "Tom", "Hanks", "July 9 1956", "Movie Star");
+INSERT INTO stars VALUES (3, "Ethan", "Hawke", "November 6 1970", "Movie Star");
+INSERT INTO stars VALUES (4, "Maya", "Hawke", "July 8 1998", "Actress");
+INSERT INTO stars VALUES (5, "Taylor", "Swift", "December 13 1989", "Singer");
+INSERT INTO stars VALUES (6, "Selena", "Gomez", "July 22 1992", "All-rounder");
+INSERT INTO stars VALUES (7, "Ariana", "Grande", "June 26 1993", "All-rounder");
+INSERT INTO stars VALUES (8, "Ed", "Sheeran", "February 17 1991", "Singer");
+INSERT INTO stars VALUES (9, "Miley", "Cyrus", "November 23 1992", "All-rounder");
+INSERT INTO stars VALUES (10, "Olivia", "Rodrigo", "February 20 2003", "Singer");
+INSERT INTO stars VALUES (11, "James", "Patterson", "March 22 1947", "Author");
+INSERT INTO stars VALUES (12, "Chloe", "Gong", "December 16 1998", "Author");
+INSERT INTO stars VALUES (13, "Victoria", "Aveyard", "July 27 1990", "Author");
+INSERT INTO stars VALUES (14, "Alex", "Aster", "August 8 1995", "Author");
+INSERT INTO stars VALUES (15, "Ayana", "Gray", "March 13 1993", "Author");
+INSERT INTO stars VALUES (16, "Mickey", "Mouse", NULL, "Fictional Characters");
+INSERT INTO stars VALUES (17, "Charlie", "Brown", NULL, "Fictional Characters");
+INSERT INTO stars VALUES (18, "Bugs", "Bunny", NULL, "Fictional Characters");
+INSERT INTO stars VALUES (19, "Sherlock", "Holmes", NULL, "Fictional Characters");
+INSERT INTO stars VALUES (20, "Anakin", "Skywalker", NULL, "Fictional Characters");
+INSERT INTO stars VALUES (21, "James", "Bond", NULL, "Fictional Characters");
+
+CREATE TABLE movies (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movies TEXT,
+    starring TEXT,
+    produced TEXT);
+    
+INSERT INTO movies VALUES (1, "Ticket to Paradise", "George Clooney", "October 21 2022");
+INSERT INTO movies VALUES (2, "The Midnight Sky", "George Clooney", "December 23 2020");
+INSERT INTO movies VALUES (3, "Tomorrowland", "George Clooney", "May 22 2015");
+INSERT INTO movies VALUES (4, "Gravity", "George Clooney", "October 4 2013");
+INSERT INTO movies VALUES (5, "Forrest Gump", "Tom Hanks", "July 6 1994");
+INSERT INTO movies VALUES (6, "Cast Away", "Tom Hanks", "December 22 2000");
+INSERT INTO movies VALUES (7, "Saving Private Ryan", "Tom Hanks", "July 24 1998");
+INSERT INTO movies VALUES (8, "The Da Vinci Code", "Tom Hanks", "May 17 2006");
+INSERT INTO movies VALUES (9, "Big", "Tom Hanks", "June 3 1988");
+INSERT INTO movies VALUES (10, "The Terminal", "Tom Hanks", "June 18 2004");
+INSERT INTO movies VALUES (11, "Sully", "Tom Hanks", "September 2 2016");
+INSERT INTO movies VALUES (12, "Catch Me if You Can", "Tom Hanks", "December 18 2002");
+INSERT INTO movies VALUES (13, "The Black Phone", "Ethan Hawke", "September 25 2021");
+INSERT INTO movies VALUES (14, "Gattaca", "Ethan Hawke", "October 24 1997");
+INSERT INTO movies VALUES (15, "The Magnificent Seven", "Ethan Hawke", "September 8 2016");
+INSERT INTO movies VALUES (16, "The Purge", "Ethan Hawke", "May 2 2013");
+INSERT INTO movies VALUES (17, "Do Revenge", "Maya Hawke", "September 16 2022");
+INSERT INTO movies VALUES (18, "Another Cinderella Story", "Selena Gomez", "September 16 2008");
+INSERT INTO movies VALUES (19, "Princess Protection Program", "Selena Gomez", "June 26 2009");
+INSERT INTO movies VALUES (20, "Hairspray Live!", "Ariana Grande", "December 7 2016");
+INSERT INTO movies VALUES (21, "Don't Look Up", "Ariana Grande", "December 5 2021");
+INSERT INTO movies VALUES (22, "The Last Song", "Miley Cyrus", "March 31 2010");
+INSERT INTO movies VALUES (23, "LOL", "Miley Cyrus", "February 10 2012");
+INSERT INTO movies VALUES (24, "So Undercover", "Miley Cyrus", "December 6 2012");
+
+
+CREATE TABLE tv_shows(id INTEGER PRIMARY KEY AUTOINCREMENT,
+    shows TEXT,
+    starring TEXT,
+    produced TEXT);
+    
+INSERT INTO tv_shows VALUES (1, "Stranger Things", "Maya Hawke", "July 4 2019");
+INSERT INTO tv_shows VALUES (2, "Only Murders in the Building", "Selena Gomez", "August 31 2021");
+INSERT INTO tv_shows VALUES (3, "Wizards of Waverly Place", "Selena Gomez", "October 12 2007");
+INSERT INTO tv_shows VALUES (4, "Victorious", "Ariana Grande", "March 27 2010");
+INSERT INTO tv_shows VALUES (5, "Sam & Cat", "Ariana Grande", "June 8 2013");
+INSERT INTO tv_shows VALUES (6, "Scream Queens", "Ariana Grande", "September 22 2015");
+INSERT INTO tv_shows VALUES (7, "Hannah Montana", "Miley Cyrus", "March 24 2006");
+
+CREATE TABLE albums (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    album_name TEXT,
+    singer TEXT,
+    release_date TEXT);
+    
+INSERT INTO albums VALUES (1, "Midnights", "Taylor Swift", "October 21 2022");
+INSERT INTO albums VALUES (2, "Fearless", "Taylor Swift", "November 11 2008");
+INSERT INTO albums VALUES (3, "Reputation", "Taylor Swift", "November 10 2017");
+INSERT INTO albums VALUES (4, "folklore", "Taylor Swift", "July 24 2020");
+INSERT INTO albums VALUES (5, "Lover", "Taylor Swift", "August 23 2019");
+INSERT INTO albums VALUES (6, "evermore", "Taylor Swift", "December 11 2020");
+INSERT INTO albums VALUES (7, "Red (Taylor's Version)", "Taylor Swift", "November 12 2021");
+INSERT INTO albums VALUES (8, "Rare", "Selena Gomez", "January 10 2020");
+INSERT INTO albums VALUES (9, "Revival", "Selena Gomez", "October 9 2015");
+INSERT INTO albums VALUES (10, "Stars Dance", "Selena Gomez", "July 19 2013");
+INSERT INTO albums VALUES (11, "A Year Without Rain", "Selena Gomez", "September 21 2010");
+INSERT INTO albums VALUES (12, "For You", "Selena Gomez", "November 24 2014");
+INSERT INTO albums VALUES (13, "Sweetener", "Ariana Grande", "August 17 2018");
+INSERT INTO albums VALUES (14, "Yours Truly", "Ariana Grande", "August 30 2013");
+INSERT INTO albums VALUES (15, "Dangerous Woman", "Ariana Grande", "May 20 2016");
+INSERT INTO albums VALUES (16, "My Everything", "Ariana Grande", "August 25 2014");
+INSERT INTO albums VALUES (17, "Positions", "Ariana Grande", "October 30 2020");
+INSERT INTO albums VALUES (18, "Thank U Next", "Ariana Grande", "February 7 2019");
+INSERT INTO albums VALUES (19, "÷", "Ed Sheeran", "March 3 2017");
+INSERT INTO albums VALUES (20, "=", "Ed Sheeran", "October 29 2021");
+INSERT INTO albums VALUES (21, "x", "Ed Sheeran", "June 20 2014");
+INSERT INTO albums VALUES (22, "+", "Ed Sheeran", "September 9 2011");
+INSERT INTO albums VALUES (23, "Endless Summer Vacation", "Miley Cyrus", "March 10 2023");
+INSERT INTO albums VALUES (24, "Plastic Hearts", "Miley Cyrus", "November 27 2020");
+INSERT INTO albums VALUES (25, "Bangerz", "Miley Cyrus", "September 30 2013");
+INSERT INTO albums VALUES (26, "Younger Now", "Miley Cyrus", "September 29 2017");
+INSERT INTO albums VALUES (27, "Breakout", "Miley Cyrus", "July 22 2008");
+INSERT INTO albums VALUES (28, "Can't Be Tamed", "Miley Cyrus", "June 18 2010");
+INSERT INTO albums VALUES (29, "Sour", "Olivia Rodrigo", "May 21 2021");
+
+CREATE TABLE books (id INTEGER PRIMARY KEY AUTOINCREMENT, 
+    title TEXT,
+    author TEXT,
+    publisher TEXT,
+    release_date TEXT);
+    
+INSERT INTO books VALUES (1, "Along Came a Spider", "James Patterson", "Grand Cntral Publishing", "December 1 1993");
+INSERT INTO books VALUES (2, "Middle School The Worst Years of My Life", "James Patterson", NULL, "May 26 2011");
+INSERT INTO books VALUES (3, "Walk the Blue Line; No Right No Left - just cops telling their true stories to James Patterson", "James Patterson", NULL, "February 6 2023");
+INSERT INTO books VALUES (4, "Run Rose Run: A Novel", "James Patterson", "Little Brown and Company", "March 7 2022");
+INSERT INTO books VALUES (5, "Triple Cross: The Greatest Alex Cross Thriller Since Kiss The Girl", "James Patterson", "Little Brown and Company", "October 31 2022");
+INSERT INTO books VALUES (6, "22 Seconds", "James Patterson", "Grand Central Publishing", "May 2 2022");
+INSERT INTO books VALUES (7, "Kiss the Girls", "James Patterson", "Warner Books", "January 11 1995");
+INSERT INTO books VALUES (8, "The House of Wolves", "James Patterson", "Little Brown and Company", "January 9 2023");
+INSERT INTO books VALUES (9, "1st to Die", "James Patterson", "Warner Books", "March 2001");
+INSERT INTO books VALUES (10, "The 23rd Midnight", "James Patterson", "Little Brown and Company", "May 1 2023");
+INSERT INTO books VALUES (11, "The President is Missing", "James Patterson", NULL, "June 4 2018");
+INSERT INTO books VALUES (12, "3 Days to Live", "James Patterson", "Grand Central Publishing", "January 31 2023");
+INSERT INTO books VALUES (13, "I Funny: A Middle School Story", "James Patterson", NULL, "2012");
+INSERT INTO books VALUES (14, "Roses Are Red", "James Patterson", "Grand Central Publishing", "September 2000");
+INSERT INTO books VALUES (15, "Zoo", "James Patterson", "Little Brown and Company", "September 2012");
+INSERT INTO books VALUES (16, "Things I Wish I Told My Mother: The Most Emotional Mother-Daughter Novel in Years", "James Patterson", "Little Brown and Company", "April 10 2023");
+INSERT INTO books VALUES (17, "The Perfect Assassin: A Doc Savage Thriller", "James Patterson", "Grand Central Publishing", "November 15 2022");
+INSERT INTO books VALUES (18, "Ali Cross", "James Patterson", NULL, "November 25 2019");
+INSERT INTO books VALUES (19, "The Lake House", "James Patterson", "Little Brown and Company", "2003");
+INSERT INTO books VALUES (20, "The Russian", "James Patterson", "Little Brown and Company", "January 23 2021");
+INSERT INTO books VALUES (21, "Crazy House", "James Patterson", NULL, "May 18 2017");
+INSERT INTO books VALUES (22, "Fear No Evil", "James Patterson", "Little Brown and Company", "November 22 2021");
+INSERT INTO books VALUES (23, "Cross Down: An Alex Cross and John Sampson Thriller", "James Patterson", "Little Brown and Company", "June 5 2023");
+INSERT INTO books VALUES (24, "The Noise", "James Patterson", "Little Brown and Company", "August 5 2021");
+INSERT INTO books VALUES (25, "Witch & Wizard", "James Patterson", "Little Brown and Company", "October 13 2009");
+INSERT INTO books VALUES (26, "Murder Games Part 2", "James Patterson", "Blackstone Publishing", "June 1 2017");
+INSERT INTO books VALUES (27, "These Violent Delights", "Chloe Gong", "Margaret K. McElderry Books", "November 17 2020");
+INSERT INTO books VALUES (28, "Foul Lady Fortune", "Chloe Gong", "Margaret K. McElderry Books", "September 27 2022");
+INSERT INTO books VALUES (29, "Our Violent Ends", "Chloe Gong", "Margaret K. McElderry Books", "November 16 2021");
+INSERT INTO books VALUES (30, "Last Violent Call; A Foul Thing", "Chloe Gong", "Margaret K. McElderry Books", "February 28 2023");
+INSERT INTO books VALUES (31, "Immortal Longings", "Chloe Gong", "Saga Press", "July 18 2023");
+INSERT INTO books VALUES (32, "Foul Heart Huntsman", "Chloe Gong", "Margaret K. McElderry Books", "September 26 2023");
