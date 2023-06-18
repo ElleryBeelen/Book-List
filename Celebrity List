@@ -143,6 +143,16 @@ INSERT INTO books VALUES (29, "Our Violent Ends", "Chloe Gong", "Margaret K. McE
 INSERT INTO books VALUES (30, "Last Violent Call; A Foul Thing", "Chloe Gong", "Margaret K. McElderry Books", "February 28 2023");
 INSERT INTO books VALUES (31, "Immortal Longings", "Chloe Gong", "Saga Press", "July 18 2023");
 INSERT INTO books VALUES (32, "Foul Heart Huntsman", "Chloe Gong", "Margaret K. McElderry Books", "September 26 2023");
+INSERT INTO books VALUES (33, "Red Queen", "Victoria Aveyard", "HarperTeen", "February 10 2015");
+INSERT INTO books VALUES (34, "Glass Sword", "Victoria Aveyard", "HarperTeen", "February 4 2016");
+INSERT INTO books VALUES (35, "King's Cage", "Victoria Aveyard", "HarperTeen", "February 7 2017");
+INSERT INTO books VALUES (36, "War Storm", "Victoria Aveyard", "HarperTeen", "March 15 2018");
+INSERT INTO books VALUES (37, "Realm Breaker", "Victoria Aveyard", "HarperTeen", "May 4 2021");
+INSERT INTO books VALUES (38, "Cruel Crown", "Victoria Aveyard", "HarperTeen", "January 5 2016");
+INSERT INTO books VALUES (39, "Broken Throne", "Victoria Aveyard", "HarperTeen", "May 7 2019");
+INSERT INTO books VALUES (40, "Blade Breaker", "Victoria Aveyard", "HarperTeen", "June 28 2022");
+INSERT INTO books VALUES (41, "Steel Scars", "Victoria Aveyard", "HarperTeen", "January 5 2016");
+INSERT INTO books VALUES (42, "Queen Song", "Victoria Aveyard", "HarperTeen", "September 1 2015");
 INSERT INTO books VALUES (43, "Lightlark", "Alex Aster", "Harry N. Abrams", "August 22 2022");
 INSERT INTO books VALUES (44, "Curse of the Forgotten City", "Alex Aster", "Sourcebooks Young Readers", "June 8 2021");
 INSERT INTO books VALUES (45, "Curse of the Night Witch", "Alex Aster", "Sourcebooks", "June 9 2020");
