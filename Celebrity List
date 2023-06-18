@@ -143,3 +143,6 @@ INSERT INTO books VALUES (29, "Our Violent Ends", "Chloe Gong", "Margaret K. McE
 INSERT INTO books VALUES (30, "Last Violent Call; A Foul Thing", "Chloe Gong", "Margaret K. McElderry Books", "February 28 2023");
 INSERT INTO books VALUES (31, "Immortal Longings", "Chloe Gong", "Saga Press", "July 18 2023");
 INSERT INTO books VALUES (32, "Foul Heart Huntsman", "Chloe Gong", "Margaret K. McElderry Books", "September 26 2023");
+INSERT INTO books VALUES (43, "Lightlark", "Alex Aster", "Harry N. Abrams", "August 22 2022");
+INSERT INTO books VALUES (44, "Curse of the Forgotten City", "Alex Aster", "Sourcebooks Young Readers", "June 8 2021");
+INSERT INTO books VALUES (45, "Curse of the Night Witch", "Alex Aster", "Sourcebooks", "June 9 2020");
